@@ -1,0 +1,122 @@
+.one 
+{
+    height:200px;
+    width:200px;
+    background-size: cover;
+    position: relative; 
+    
+         
+        
+
+}
+.container2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+img {
+   width: 100%;
+}
+
+body
+{
+   background-color: black;
+   color:white;
+}
+.container
+{
+   background-color: black;
+   color: white;
+   text-align: center;
+
+
+}
+#a
+{
+   background-image: url(a.png);
+} 
+#b
+{
+   background-image: url(b.png);
+} 
+#c
+{
+   background-image: url(c.png);
+} 
+#d
+{
+   background-image: url(d.png);
+} 
+#e
+{
+   background-image: url(e.png);
+} 
+#f
+{
+   background-image: url(f.png);
+} 
+
+
+.image-container {
+   display: inline-block;
+   margin: 10px; 
+}
+
+.title {
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding: 5px;
+   font-size: 17px;
+   width: 200px;
+   display: block;
+   text-align: center;
+}
+#a1
+{
+   background-image: url(1.png);
+} 
+#b1
+{
+   background-image: url(2.png);
+} 
+#c1
+{
+   background-image: url(3.png);
+} 
+#d1
+{
+   background-image: url(4.png);
+} 
+#e1
+{
+   background-image: url(5.png);
+} 
+#f1
+{
+   background-image: url(6.png);
+} 
+#p
+{
+   background-image: url(p.png);
+} 
+#q
+{
+   background-image: url(q.png);
+} 
+#r
+{
+   background-image: url(r.png);
+} 
+#s
+{
+   background-image: url(s.png);
+} 
+#t
+{
+   background-image: url(t.png);
+} 
+#u
+{
+   background-image: url(u.png);
+} 
+

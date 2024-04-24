@@ -1,0 +1,71 @@
+body
+{
+    background-color: black;margin-left: 20px;
+   
+}
+.img
+{
+    width:500px;
+    height:500px;
+    display: inline-block;
+}
+h1
+{
+    font-size: 50px; 
+    color:white;
+    font-weight: 700;
+}
+
+
+#a
+{
+    background-image: url(sa.png);
+    background-repeat: no-repeat;
+}
+#b
+{
+    background-image: url(sb.png);
+    background-repeat: no-repeat;
+}
+#c
+{
+    background-image: url(sc.png);
+    background-repeat: no-repeat;
+}
+#d
+{
+    background-image: url(sd.png);
+    background-repeat: no-repeat;
+}
+#e
+{
+    background-image: url(se.png);
+    background-repeat: no-repeat;
+}
+#f
+{
+    background-image: url(sf.png);
+    background-repeat: no-repeat;
+}
+#g
+{
+    background-image: url(sg.png);
+    background-repeat: no-repeat;
+}
+#h
+{
+    background-image: url(sh.png);
+    background-repeat: no-repeat;
+}
+#i
+{
+    background-image: url(si.png);
+    background-repeat: no-repeat;
+}
+.name {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}

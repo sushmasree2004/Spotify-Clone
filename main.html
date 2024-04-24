@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="top.png">
+    <h1 style="display: inline-block;">Based on your recent listening   </h1> <a href="pod.html" style="text-decoration: none;font-size: 30px;color: aliceblue;float: right; margin-top: 30px;margin-right:150px;">PODCASTS</a>
+    
+    <div class="container" >
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="a"></div>
+            <span class="title">Trending Now Telugu</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="b"></div>
+            <span class="title">Telugu love Songs</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="c"></div>
+            <span class="title">Meow Telugu</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="d"></div>
+            <span class="title">Purely Prema</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="e"></div>
+            <span class="title">Happy Vibes </span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="f"></div>
+            <span class="title">Kirrak telugu</span>
+        </div>
+    </div>
+    <div id="loaded-content"></div>
+    <br>
+    <h1>Recently Played</h1>
+    <div class="container">
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="a1"></div>
+            <span class="title">Your top songs 2023</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="b1"></div>
+            <span class="title">Tollywood Perals</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="c1"></div>
+            <span class="title">All out 10's Telugu</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="d1"></div>
+            <span class="title">Telugu Fast beat Songs</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="e1"></div>
+            <span class="title">Pawan kalyan Hits</span>
+        </div>
+        <div class="image-container" onclick="openPodcastPage('index.html')">
+            <div class="one" id="f1"></div>
+            <span class="title">Kushi</span>
+        </div>
+    </div>
+    <br>
+    <h1>Recomended for Today</h1>
+    <div class="container2"> 
+        <div class="image-container">
+            <div class="one" id="p" onclick="playSong('Leharaayi.mp3')"></div>
+            <span class= "title">leharayi</span>
+        </div>
+        <div class="image-container">
+            <div class="one" id="q" onclick="playSong('Pataas Pilla.mp3')"></div>
+            <span class="title">DJ Tillu</span>
+        </div>
+        <div class="image-container">
+            <div class="one" id="r" onclick="playSong('Yemito.mp3')"></div>
+            <span class="title">Andala rakshasi</span>
+        </div>
+        <div class="image-container">
+            <div class="one" id="s" onclick="playSong('Petta Theme.mp3')"></div>
+            <span class="title">Petta</span>
+        </div>
+        <div class="image-container">
+            <div class="one" id="t" onclick="playSong('Kaanunna kalyanam.mp3')"></div>
+            <span class="title">Kaanunna kalyanam </span>
+        </div>
+        <div class="image-container">
+            <div class="one" id="u" onclick="playSong('Ay Pilla.mp3')"></div>
+            <span class="title">Love Story</span>
+        </div>
+    </div>
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+    <script>
+        function playSong(songUrl) {
+            var audio = document.getElementById("audioPlayer");
+            audio.src = songUrl;
+            audio.play();
+        }
+
+        function openPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+
+        function openPodcastPage(podcastPageUrl) {
+            window.location.href = podcastPageUrl;
+        }
+    </script>
+          
+  
+   
+</body>
+</html>

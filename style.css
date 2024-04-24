@@ -44,7 +44,7 @@ nav ul li{
 }
 
 .container {
-    background-image: url(./assets/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     min-height: 60vh;
     position: relative;
@@ -52,9 +52,9 @@ nav ul li{
     height: 250px;
     color: rgb(210, 210, 210);
     border-radius: 12px;
-    padding:34px;
+  
     display: flex;
-    width:70%;
+    width:600px;
     font-family: 'Varela Round', sans-serif;
   }
   
@@ -216,3 +216,54 @@ nav ul li{
         justify-content: space-evenly;
     }
   }
+/* Smooth transitions */
+.songItems img,
+.icons i,
+#progressBar,
+.songInfo img {
+    transition: all 0.3s ease;
+}
+
+
+
+/* Hover effects for buttons and links */
+.icons i:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+.songItems:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.songItems img:hover {
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+#progressBar:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.songInfo img:hover {
+    transform: rotate(360deg);
+}
+.icons {
+  padding: 20px;
+  z-index: 995;
+}
+
+.icons i {
+  padding: 0px 2.5px;
+  cursor: pointer;
+  color: #fff; 
+  transition: color 0.3s ease; 
+}
+
+.icons i:hover {
+  color: var(--primary-color); 
+}
+
